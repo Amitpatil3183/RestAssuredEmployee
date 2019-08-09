@@ -86,7 +86,7 @@ public class TC005_Delete_Employee_Record extends TestBase{
 	void checkserverType()
 	{
 		String serverType = response.header("Server");
-		Assert.assertEquals(serverType, "nginx/1.14.1");
+		Assert.assertEquals(serverType, "Apache");
 	}
 
 	@Test

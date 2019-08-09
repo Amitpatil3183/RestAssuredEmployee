@@ -110,7 +110,7 @@ public class TC001_Get_All_Employees extends TestBase{
 		
 		String serverType = response.header("Server");
 		logger.info("Server Type is =>" +serverType); 
-		Assert.assertEquals(serverType, "nginx/1.14.1");
+		Assert.assertEquals(serverType, "Apache");
 	
 	}
 

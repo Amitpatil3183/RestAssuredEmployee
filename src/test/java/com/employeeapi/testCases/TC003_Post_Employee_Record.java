@@ -99,7 +99,7 @@ public class TC003_Post_Employee_Record extends TestBase{
 	void checkserverType()
 	{
 		String serverType = response.header("Server");
-		Assert.assertEquals(serverType, "nginx/1.14.1");
+		Assert.assertEquals(serverType, "Apache");
 	}
 
 	@Test
