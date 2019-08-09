@@ -1,0 +1,2 @@
+cd E:\restassuredemployeeproject\RestassuredAPITesting_Employee_Project
+mvn clean install
