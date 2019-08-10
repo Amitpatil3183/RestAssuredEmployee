@@ -1,19 +1,7 @@
-/******************************************************
-Test Name:Create new record in database 
-URI: http://dummy.restapiexample.com/api/v1/create
-Request Type: POST
-Request Payload(Body): {"name":"XXXXX","salary":"XXXX","age":"XX"}
 
-********* Validations **********
-Response Payload(Body) : {"name":"XXXXX","salary":"XXXX","age":"XX"}
-Status Code : 200
-Status Line : HTTP/1.1 200 OK
-Content Type : text/html; charset=UTF-8
-Server Type :  nginx/1.14.1
-Content Encoding : gzip
-**********************************************************/
 
 package com.employeeapi.testCases;
+
 
 import org.json.simple.JSONObject;
 import org.testng.Assert;
@@ -99,7 +87,7 @@ public class TC003_Post_Employee_Record extends TestBase{
 	void checkserverType()
 	{
 		String serverType = response.header("Server");
-		Assert.assertEquals(serverType, "Apache");
+		Assert.assertEquals(serverType, "nginx/1.14.1");
 	}
 
 	@Test
