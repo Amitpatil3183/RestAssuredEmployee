@@ -6,9 +6,10 @@
 	<listener class-name="com.employeeapi.utilities.Listeners" />
 </listeners>
 	<test thread-count="5" name="EmployeesRestAPITest">
-	<parameter name="EmpName"	value="ABCP001"></parameter>
-	<parameter name="EmpSalary"	value="11111"></parameter>
-	<parameter name="EmpAge"	value="43"></parameter>
+	
+	<parameter name="EmpName"	value="ABCPT1"></parameter>
+	<parameter name="EmpSalary"	value="18911"></parameter>
+	<parameter name="EmpAge"	value="49993"></parameter>
 			
 		<classes>
 			<class name="com.employeeapi.testCases.TC001_Get_All_Employees" />

@@ -52,7 +52,7 @@ public class TC002_Get_Single_Employee_Record extends TestBase{
 	@Test
 	void checkStatusCode()
 	{
-		int statusCode = response.getStatusCode(); // Gettng status code
+		int statusCode = response.getStatusCode(); // Getting status code
 		Assert.assertEquals(statusCode, 200);
 	}
 	
