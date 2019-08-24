@@ -7,7 +7,7 @@
 </listeners>
 	<test thread-count="5" name="EmployeesRestAPITest">
 	
-	<parameter name="EmpName"	value="ABCPT1"></parameter>
+	<parameter name="EmpName"	value="ABCII1"></parameter>
 	<parameter name="EmpSalary"	value="18911"></parameter>
 	<parameter name="EmpAge"	value="49993"></parameter>
 			
@@ -17,6 +17,7 @@
 			<class name="com.employeeapi.testCases.TC003_Post_Employee_Record" />
 			<class name="com.employeeapi.testCases.TC004_Put_Employee_Record" />
 			<class name="com.employeeapi.testCases.TC005_Delete_Employee_Record" />
+			<class name="com.employeeapi.testCases.TC006_Get_Request_Authorization" />
 
 		</classes>
 	</test> <!-- Test -->

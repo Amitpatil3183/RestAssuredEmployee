@@ -42,7 +42,7 @@ public class TC003_Post_Employee_Record extends TestBase{
 		// JSONObject is a class that represents a simple JSON. We can add Key-Value pairs using the put method
 		//{"name":"John123X","salary":"123","age":"23"}
 		JSONObject requestParams = new JSONObject();
-		requestParams.put("name", EmpName); // Cast
+		requestParams.put("name", EmpName);
 		requestParams.put("salary", EmpSalary);
 		requestParams.put("age", EmpAge);
 		
